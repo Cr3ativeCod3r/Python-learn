@@ -47,7 +47,7 @@ def upz():
    global his
    his.append("green")
  
-os.system("cls")
+os.system('cls')
 print("Witamy w kasynie!")
 print("Masz na koncie 500zł, celem gry jest wygrać 10,000zł ")
 start=int(input("Jak chcesz zagrać wpisz 1: "))
