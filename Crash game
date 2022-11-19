@@ -16,13 +16,13 @@ def crash():
      money=money-how
      sleep(2)
      ls.append(round(n,2))
-     os.system('clear')
+     os.system('cls')
      game=0
    print(round(n,2),"\nYour money: ",round(track))
    n=n+0.01
    track=how*n
    sleep(p)
-   os.system('clear')
+   os.system('cls')
    if n>1.2:
      p=0.2
    if n>1.5:
@@ -34,7 +34,7 @@ def crash():
     money=money-how+track
     ls.append(round(n,2))
     sleep(3)
-    os.system('clear')
+    os.system('cls')
     game=0
      
 while s==1:
@@ -47,7 +47,7 @@ while s==1:
  ur=float(input("\nDo ilu grasz (np. 1.64): "))
  how=int(input("Za ile: "))
  track=how
- os.system('clear')
+ os.system('cls')
  crash()
  
     
