@@ -20,13 +20,13 @@ def crash():
      money=money-how
      sleep(2)
      ls.append(round(n,2))
-     os.system('clear')
+     os.system('cls')
      game=0
    print(round(n,2),"\nYour money: ",round(track))
    n=n+0.01
    track=how*n
    sleep(p)
-   os.system('clear')
+   os.system('cls')
    if n>1.2:
      p=0.2
    if n>1.2:
@@ -40,7 +40,7 @@ def crash():
     money=money-how+track
     ls.append(round(n,2))
     sleep(3)
-    os.system('clear')
+    os.system('cls')
     game=0
      
 while s==1:
@@ -54,8 +54,8 @@ while s==1:
  how=int(input("Za ile: "))
  if how>0 and how<=money:
   track=how
-  os.system('clear')
+  os.system('cls')
   crash()
  else:
-  os.system('clear')
+  os.system('cls')
   print("Zla kwota")
